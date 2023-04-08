@@ -1,0 +1,84 @@
+/* GLOBAL */
+html{
+  height: 100%;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after{
+  box-sizing:inherit;
+  margin: 0px;
+  padding: 0px;
+}
+
+
+
+body{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 0px;
+  margin: 0px;
+  font-family: "Arial",sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  background-color: #fff;
+  color: #222;
+}
+img{
+  max-width: 100%;
+  height: auto;
+}
+/* CONTAINER */
+.container{
+  width: 100%;
+  max-width: 950px;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin: auto;
+}
+/* MAI-CONTANENT */
+.main-content{
+  flex-grow: 1;
+}
+/* SAIT HEADER  */
+
+.sait-header__container {
+  display: flex;
+  align-items: center;
+  padding-top:30px ;
+
+}
+
+.sait-header__img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-right: 60px;
+}
+.sait-header__info {
+  flex-grow: 1;
+}
+.sait-header__title {
+  margin: 0px;
+
+}
+.sait-header__subtitle {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  margin-top:10px ;
+}
+.sait-header__items {
+  display: flex;
+  list-style: none;
+}
+.sait-header__item {
+margin-right: 18px;
+padding: 15px 0px;
+}
+.sait-header__link {
+  text-decoration: none;
+  color:#333;
+}
